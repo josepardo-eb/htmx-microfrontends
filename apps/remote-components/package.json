@@ -1,0 +1,33 @@
+{
+  "name": "remote-components",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/alpinejs": "^0.3.1",
+    "@astrojs/check": "^0.3.1",
+    "@astrojs/react": "^3.0.7",
+    "@astrojs/tailwind": "^5.1.0",
+    "@radix-ui/react-dialog": "^1.0.5",
+    "@radix-ui/react-slot": "^1.0.2",
+    "@types/alpinejs": "^3.13.6",
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "alpinejs": "^3.13.3",
+    "astro": "^3.6.4",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
+    "lucide-react": "^0.314.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwind-merge": "^2.2.0",
+    "tailwindcss-animate": "^1.0.7",
+    "typescript": "^5.3.2"
+  }
+}

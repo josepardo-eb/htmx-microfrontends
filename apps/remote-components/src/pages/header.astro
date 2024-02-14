@@ -1,0 +1,23 @@
+---
+import { Dropdown } from "@/components/ui/Dropdown";
+
+export const partial = true;
+---
+
+<header
+  class="header p-4 flex items-center justify-between border border-gray-300 shadow-sm"
+>
+  <h1>Eventbrite</h1>
+  <Dropdown
+    buttonTitle="Dropdown One"
+    options={["option 1", "option 2", "option 3"]}
+  />
+  <Dropdown
+    buttonTitle="Dropdown Two"
+    options={["option 1", "option 2", "option 3"]}
+  />
+  <Dropdown
+    buttonTitle="Dropdown Three"
+    options={["option 1", "option 2", "option 3"]}
+  />
+</header>
